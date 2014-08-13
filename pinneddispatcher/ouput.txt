@@ -1,0 +1,4 @@
+System default dispatcher is: class akka.dispatch.Dispatcher
+Main thread id is :1
+Actor -- class FooActor. Dispatcher used by Actor is: class akka.dispatch.PinnedDispatcher. Run by thread with id : 15
+Actor -- class FooActor. Dispatcher used by Actor is: class akka.dispatch.PinnedDispatcher. Run by thread with id : 14
