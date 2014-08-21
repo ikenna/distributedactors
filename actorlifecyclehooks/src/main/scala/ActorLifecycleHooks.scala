@@ -29,7 +29,7 @@ case class Fault(message: String) extends Exception
 class Child extends Actor {
 
   var stepCount = 1
-  
+
   println(step + " Actor object initialization")
 
   override def preStart(): Unit = println(step + " PreStart() hook called")

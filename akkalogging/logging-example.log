@@ -1,0 +1,100 @@
+14:21:01 INFO  Slf4jLogger [] - Slf4jLogger started
+14:22:12 INFO  Slf4jLogger [] - Slf4jLogger started
+14:22:12 DEBUG EventStream [EventStream(akka://LoggingExample)] - logger log1-Slf4jLogger started
+14:22:12 DEBUG EventStream [EventStream(akka://LoggingExample)] - Default Loggers started
+14:22:12 DEBUG MyActor [akka://LoggingExample/user/$a] - received handled message AMessage()
+14:22:12 DEBUG MyActor [akka://LoggingExample/user/$a] - received handled message AMessage()
+14:22:12 DEBUG MyActor [akka://LoggingExample/user/$a] - received handled message AMessage()
+14:23:15 INFO  Slf4jLogger [] - Slf4jLogger started
+14:23:15 DEBUG EventStream [EventStream(akka://LoggingExample)] - logger log1-Slf4jLogger started
+14:23:15 DEBUG EventStream [EventStream(akka://LoggingExample)] - Default Loggers started
+14:23:15 DEBUG MyActor [akka://LoggingExample/user/$a] - received handled message AMessage()
+14:23:15 DEBUG MyActor [akka://LoggingExample/user/$a] - received handled message AMessage()
+14:23:15 DEBUG MyActor [akka://LoggingExample/user/$a] - received handled message AMessage()
+14:58:44 INFO  Slf4jLogger [] - Slf4jLogger started
+14:58:44 DEBUG EventStream [EventStream(akka://LoggingExample)] - logger log1-Slf4jLogger started
+14:58:44 DEBUG EventStream [EventStream(akka://LoggingExample)] - Default Loggers started
+14:58:44 DEBUG MyActor [akka://LoggingExample/user/$a] - received handled message AMessage()
+14:58:44 DEBUG MyActor [akka://LoggingExample/user/$a] - received handled message AMessage()
+14:58:44 DEBUG MyActor [akka://LoggingExample/user/$a] - received handled message AMessage()
+14:58:55 INFO  Slf4jLogger [] - Slf4jLogger started
+14:58:55 DEBUG EventStream [EventStream(akka://LoggingExample)] - logger log1-Slf4jLogger started
+14:58:55 DEBUG EventStream [EventStream(akka://LoggingExample)] - Default Loggers started
+14:59:07 INFO  Slf4jLogger [] - Slf4jLogger started
+14:59:07 DEBUG EventStream [EventStream(akka://LoggingExample)] - logger log1-Slf4jLogger started
+14:59:07 DEBUG EventStream [EventStream(akka://LoggingExample)] - Default Loggers started
+14:59:45 INFO  Slf4jLogger [] - Slf4jLogger started
+14:59:45 DEBUG EventStream [EventStream(akka://LoggingExample)] - logger log1-Slf4jLogger started
+14:59:45 DEBUG EventStream [EventStream(akka://LoggingExample)] - Default Loggers started
+14:59:45 DEBUG MyActor [akka://LoggingExample/user/$a] - received AutoReceiveMessage Envelope(Kill,Actor[akka://LoggingExample/deadLetters])
+14:59:45 ERROR OneForOneStrategy [akka://LoggingExample/user/$a] - Kill
+akka.actor.ActorKilledException: Kill
+15:00:02 INFO  Slf4jLogger [] - Slf4jLogger started
+15:00:02 DEBUG EventStream [EventStream(akka://LoggingExample)] - logger log1-Slf4jLogger started
+15:00:02 DEBUG EventStream [EventStream(akka://LoggingExample)] - Default Loggers started
+15:00:02 ERROR OneForOneStrategy [akka://LoggingExample/user/$a] - Kill
+akka.actor.ActorKilledException: Kill
+15:00:14 INFO  Slf4jLogger [] - Slf4jLogger started
+15:00:14 DEBUG EventStream [EventStream(akka://LoggingExample)] - logger log1-Slf4jLogger started
+15:00:14 DEBUG EventStream [EventStream(akka://LoggingExample)] - Default Loggers started
+15:00:14 DEBUG MyActor [akka://LoggingExample/user/$a] - received AutoReceiveMessage Envelope(Kill,Actor[akka://LoggingExample/deadLetters])
+15:00:14 ERROR OneForOneStrategy [akka://LoggingExample/user/$a] - Kill
+akka.actor.ActorKilledException: Kill
+15:01:44 INFO  Slf4jLogger [] - Slf4jLogger started
+15:01:44 DEBUG EventStream [EventStream(akka://LoggingExample)] - logger log1-Slf4jLogger started
+15:01:44 DEBUG EventStream [EventStream(akka://LoggingExample)] - Default Loggers started
+15:02:23 INFO  Slf4jLogger [] - Slf4jLogger started
+15:02:23 DEBUG EventStream [EventStream(akka://LoggingExample)] - logger log1-Slf4jLogger started
+15:02:23 DEBUG EventStream [EventStream(akka://LoggingExample)] - Default Loggers started
+15:02:23 DEBUG MyActor [akka://LoggingExample/user/$a] - received AutoReceiveMessage Envelope(Kill,Actor[akka://LoggingExample/deadLetters])
+15:02:23 ERROR OneForOneStrategy [akka://LoggingExample/user/$a] - Kill
+akka.actor.ActorKilledException: Kill
+15:02:56 INFO  Slf4jLogger [] - Slf4jLogger started
+15:02:56 DEBUG EventStream [EventStream(akka://LoggingExample)] - logger log1-Slf4jLogger started
+15:02:56 DEBUG EventStream [EventStream(akka://LoggingExample)] - Default Loggers started
+15:03:23 INFO  Slf4jLogger [] - Slf4jLogger started
+15:03:24 DEBUG EventStream [EventStream(akka://LoggingExample)] - logger log1-Slf4jLogger started
+15:03:24 DEBUG EventStream [EventStream(akka://LoggingExample)] - Default Loggers started
+15:03:24 DEBUG MyActor [akka://LoggingExample/user/$a] - received AutoReceiveMessage Envelope(PoisonPill,Actor[akka://LoggingExample/deadLetters])
+15:04:23 INFO  Slf4jLogger [] - Slf4jLogger started
+15:04:23 DEBUG EventStream [EventStream(akka://LoggingExample)] - logger log1-Slf4jLogger started
+15:04:23 DEBUG EventStream [EventStream(akka://LoggingExample)] - Default Loggers started
+15:05:26 INFO  Slf4jLogger [] - Slf4jLogger started
+15:05:26 DEBUG EventStream [EventStream(akka://LoggingExample)] - logger log1-Slf4jLogger started
+15:05:26 DEBUG EventStream [EventStream(akka://LoggingExample)] - Default Loggers started
+15:05:26 DEBUG MyActor [akka://LoggingExample/user/$a] - received AutoReceiveMessage Envelope(Identify(foo),Actor[akka://LoggingExample/deadLetters])
+15:05:26 INFO  DeadLetterActorRef [akka://LoggingExample/deadLetters] - Message [akka.actor.ActorIdentity] from Actor[akka://LoggingExample/deadLetters] to Actor[akka://LoggingExample/deadLetters] was not delivered. [1] dead letters encountered. This logging can be turned off or adjusted with configuration settings 'akka.log-dead-letters' and 'akka.log-dead-letters-during-shutdown'.
+15:05:55 INFO  Slf4jLogger [] - Slf4jLogger started
+15:05:55 DEBUG EventStream [EventStream(akka://LoggingExample)] - logger log1-Slf4jLogger started
+15:05:55 DEBUG EventStream [EventStream(akka://LoggingExample)] - Default Loggers started
+15:05:55 DEBUG MyActor [akka://LoggingExample/user/$a] - received AutoReceiveMessage Envelope(PoisonPill,Actor[akka://LoggingExample/deadLetters])
+15:08:54 INFO  Slf4jLogger [] - Slf4jLogger started
+15:09:03 INFO  Slf4jLogger [] - Slf4jLogger started
+15:09:14 INFO  Slf4jLogger [] - Slf4jLogger started
+15:09:26 INFO  Slf4jLogger [] - Slf4jLogger started
+15:09:26 DEBUG EventStream [EventStream(akka://LoggingExample)] - logger log1-Slf4jLogger started
+15:09:26 DEBUG EventStream [EventStream(akka://LoggingExample)] - Default Loggers started
+15:09:26 DEBUG MyActor [akka://LoggingExample/user/$a] - received AutoReceiveMessage Envelope(PoisonPill,Actor[akka://LoggingExample/deadLetters])
+15:14:41 INFO  Slf4jLogger [] - Slf4jLogger started
+15:14:41 DEBUG EventStream [EventStream(akka://LoggingExample)] - logger log1-Slf4jLogger started
+15:14:41 DEBUG EventStream [EventStream(akka://LoggingExample)] - Default Loggers started
+15:14:41 DEBUG LocalActorRefProvider$SystemGuardian [akka://LoggingExample/system] - now supervising Actor[akka://LoggingExample/system/deadLetterListener#1911247308]
+15:14:41 DEBUG DeadLetterListener [akka://LoggingExample/system/deadLetterListener] - started (akka.event.DeadLetterListener@1ba5a755)
+15:14:41 DEBUG LocalActorRefProvider$Guardian [akka://LoggingExample/user] - now supervising Actor[akka://LoggingExample/user/$a#-1776104588]
+15:14:41 DEBUG MyActor [akka://LoggingExample/user/$a] - started (MyActor@36905c6e)
+15:14:41 DEBUG MyActor [akka://LoggingExample/user/$a] - stopped
+15:14:58 INFO  Slf4jLogger [] - Slf4jLogger started
+15:14:58 DEBUG EventStream [EventStream(akka://LoggingExample)] - logger log1-Slf4jLogger started
+15:14:58 DEBUG EventStream [EventStream(akka://LoggingExample)] - Default Loggers started
+15:14:58 DEBUG LocalActorRefProvider$SystemGuardian [akka://LoggingExample/system] - now supervising Actor[akka://LoggingExample/system/deadLetterListener#667317208]
+15:14:58 DEBUG DeadLetterListener [akka://LoggingExample/system/deadLetterListener] - started (akka.event.DeadLetterListener@23efdc4)
+15:14:58 DEBUG LocalActorRefProvider$Guardian [akka://LoggingExample/user] - now supervising Actor[akka://LoggingExample/user/$a#-352199304]
+15:14:58 DEBUG MyActor [akka://LoggingExample/user/$a] - started (MyActor@47b2254c)
+15:14:58 DEBUG MyActor [akka://LoggingExample/user/$a] - stopped
+15:18:36 INFO  Slf4jLogger [] - Slf4jLogger started
+15:18:36 DEBUG EventStream [EventStream(akka://LoggingExample)] - logger log1-Slf4jLogger started
+15:18:36 DEBUG EventStream [EventStream(akka://LoggingExample)] - Default Loggers started
+15:18:49 INFO  Slf4jLogger [] - Slf4jLogger started
+15:18:49 DEBUG EventStream [EventStream(akka://LoggingExample)] - logger log1-Slf4jLogger started
+15:18:49 DEBUG EventStream [EventStream(akka://LoggingExample)] - Default Loggers started
+15:18:49 DEBUG MyActor [akka://LoggingExample/user/$a] - received AutoReceiveMessage Envelope(PoisonPill,Actor[akka://LoggingExample/deadLetters])
